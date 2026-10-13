@@ -4,7 +4,7 @@
 
 // --- CONFIGURATION ---
 const CONFIG = {
-    requiredToken: [], // Must match ?t=8f3a2c in URL
+    requiredToken: ['8f3a2c'], // Must match ?t=8f3a2c in URL
     targetCountry: 'Rwanda', // Adjust to your target
     redirectUrl: 'https://www.instagram.com/explore/',
     redirectDelayMs: 4000, // 4 seconds
